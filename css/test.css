@@ -1,6 +1,19 @@
+* {
+	text-align: center;
+}
+
 .Tip {
+	align-items: center;
+	/* margin: 0px 2px 2px 0px; */
+}
+.Tip button{
 	width: 108px;
 	height: 36px;
-	/* margin: 0px 2px 2px 0px; */
-	;
+}
+
+
+.nav{
+	align-items: center;
+	border: 10px 10px 10px 10px;
+	text-align: center;
 }
