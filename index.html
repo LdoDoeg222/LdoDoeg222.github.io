@@ -3,9 +3,10 @@
 
 <head>
 	<title>Dy镝 的博客</title>
-	<base href="/">
+	<!-- <base href="/"> -->
+	<base href="./">
 	<link href="./css/test.css" rel="stylesheet" type="text/css">
-	<!-- <meta http-equiv="refresh" content="2"> -->
+	<meta http-equiv="refresh" content="2">
 </head>
 
 <body>
@@ -13,16 +14,27 @@
 		<img src="" alt="">
 		<h1>Dy镝 的博客</h1>
 	</div>
-	<div class="nav">
+	<nav class="nav">
 		<a href="./index.html">首页</a>
 		<a href="./html/nav-bar/文章列表.html">文章列表</a>
 		<a href="./html/nav-bar/友情链接.html">友情链接</a>
 		<a href="./html/nav-bar/其他.html">其他</a>
 		<hr>
-	</div>
-
+	</nav>
+	<article>
+		<p>你好！
+			<br>这是 Dy镝 的博客，目前处于起步阶段。
+		</p>
+		<p>目前才开始学 HTML+CSS，所以只有最基础的文本、基本的样式。
+			<br>动画？那是什么？
+		</p>
+		<hr>
+	</article>
 	<div class="music-player">
-		<audio src="music/HOYO-MiX - Speechless Sorrows 青藤静掩的愁闷.mp3" controls></audio>
+		<span class="box1">HOYO-MiX - Speechless Sorrows 青藤静掩的愁闷.mp3：</span>
+		<div class="box2">
+			<audio src="/assets/sound/HOYO-MiX - Speechless Sorrows 青藤静掩的愁闷.mp3" controls></audio>
+		</div>
 	</div>
 	<div class="Tip">
 		<button onclick="tips">Tip button</button>

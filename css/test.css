@@ -1,5 +1,6 @@
 * {
 	text-align: center;
+	color:#333;
 }
 
 .Tip {
@@ -11,9 +12,50 @@
 	height: 36px;
 }
 
+article {
+	font-style: normal;
+}
 
 .nav{
 	align-items: center;
 	border: 10px 10px 10px 10px;
 	text-align: center;
+}
+
+nav a{
+	color:#333;
+}
+nav a:link{
+	color: #888;
+}
+nav a:visited{
+	color: #888;
+}
+nav a:hover{
+	color: orange;
+}
+nav a:active{
+	color: red;
+}
+
+.music-player{
+	background-color: aliceblue;
+	flex-direction: row;
+	text-align: center;
+}
+
+.music-player .box1{
+	height: 54px;
+	width: 600px;
+	/* text-align: center; */
+	background-color: aqua;
+	border-radius: 0px 8px 8px 0px;
+	line-height: 3.375;
+}
+.music-player .box2{
+	height: 54px;
+	width: 600px;
+	/* text-align: center; */
+	border-radius: 0px 27px 27px 0px;
+	background-color: rgb(128, 116, 240)
 }
