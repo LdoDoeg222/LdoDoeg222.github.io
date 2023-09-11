@@ -1,5 +1,12 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+<script>
+    import { createApp } from 'vue'
+    import App from './App.vue'
 
-const app = createApp(App)
+    const app = createApp({
+        message: "Hello, world"
+    })
+</script>
 
+<body>
+    {{message}}
+</body>
