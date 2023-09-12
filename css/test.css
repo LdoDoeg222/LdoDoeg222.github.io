@@ -64,21 +64,21 @@ nav a:active{
 	display: flex;
 	justify-content: center;
 }
-.feature-box{
+.feature{
 	margin: 30px;
 	padding: 20px;
 	width: 80px;
 	height: 80px;
 }
-.feature-box img{
+.feature img{
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
 }
-.feature-box h6{
+.feature h6{
 	font-size: 24px;
 	font-weight: bold;
 }
-.feature-box p{
+.feature p{
 	font-size: 16px;
 }
