@@ -59,3 +59,18 @@ nav a:active{
 	border-radius: 0px 27px 27px 0px;
 	background-color: rgb(128, 116, 240)
 }
+
+.feature{
+	display: flex;
+	justify-content: center;
+}
+.feature>img {
+	border-radius: 50%;
+}
+.feature>h6{
+	font-size: 24px;
+	font-weight: bold;
+}
+.feature>p{
+	font-size: 16px;
+}
