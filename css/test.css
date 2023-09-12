@@ -61,12 +61,13 @@ nav a:active{
 }
 
 .feature-banner{
+	height: 100px;
 	display: flex;
 	justify-content: center;
 }
 .feature{
-	margin: 30px;
-	padding: 20px;
+	margin: 10px;
+	padding: 5px;
 	width: 80px;
 	height: 80px;
 }
