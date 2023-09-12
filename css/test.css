@@ -64,14 +64,14 @@ nav a:active{
 	display: flex;
 	justify-content: center;
 }
-.feature>img {
+.feature img {
 	size: 50px 50px;
 	border-radius: 50%;
 }
-.feature>h6{
+.feature h6{
 	font-size: 24px;
 	font-weight: bold;
 }
-.feature>p{
+.feature p{
 	font-size: 16px;
 }
