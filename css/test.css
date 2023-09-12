@@ -65,6 +65,7 @@ nav a:active{
 	justify-content: center;
 }
 .feature>img {
+	size: 50px 50px;
 	border-radius: 50%;
 }
 .feature>h6{
