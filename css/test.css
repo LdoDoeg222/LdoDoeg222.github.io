@@ -1,27 +1,19 @@
 * {
-	text-align: center;
 	color:#333;
 }
 
-.Tip {
-	align-items: center;
-	/* margin: 0px 2px 2px 0px; */
-}
-.Tip button{
-	width: 108px;
-	height: 36px;
-}
-
-article {
-	font-style: normal;
+h1 {
+	text-align: center;
+	background-color: #efefef;
+	font-size: 36px;
 }
 
 .nav{
 	align-items: center;
 	border: 10px 10px 10px 10px;
 	text-align: center;
+	background-color: #eeeeee;
 }
-
 nav a{
 	color:#333;
 }
@@ -38,12 +30,17 @@ nav a:active{
 	color: red;
 }
 
+article {
+	font-style: normal;
+	text-align: center;
+	background-color: #eeeeee;
+}
+
 .music-player{
 	background-color: aliceblue;
 	flex-direction: row;
 	text-align: center;
 }
-
 .music-player .box1{
 	height: 54px;
 	width: 600px;
@@ -60,30 +57,60 @@ nav a:active{
 	background-color: rgb(128, 116, 240)
 }
 
+.feature-container{
+	background-color: #eeeeee;
+	text-align: center;
+}
+.feature-container .feature-title{
+	background-color: #999999;
+	height: 50px;
+	font-size: 24px;
+	margin: 20px 0px;
+}
+
 .feature-banner{
-	height: 100px;
+	height: 15%;
 	display: flex;
 	justify-content: center;
+	text-align: center;
 }
 .feature{
+	background-color: #cccccc;
 	margin: 10px;
 	padding: 5px;
-	width: 80px;
-	height: 80px;
+	width: 25%;
+}
+.feature *{
+	background-color: #aaa;
 }
 .feature img{
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	border-radius: 50%;
 }
 .feature h6{
-	margin: 10%;
-	height: 24px;
+	margin: 12px 0px;
+	height: 40px;
 	font-size: 24px;
 	font-weight: bold;
 }
 .feature p{
-	margin: 10%;
-	height: 16px;
+	margin: 12px 0% 24px;
+	height: 128px;
 	font-size: 16px;
+	
+}
+.feature #1 p::after{
+	content: "你好";
+ 	
+}
+
+
+.Tip {
+	align-items: center;
+	/* margin: 0px 2px 2px 0px; */
+}
+.Tip button{
+	width: 108px;
+	height: 36px;
 }
