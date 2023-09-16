@@ -1,14 +1,10 @@
-* {
-	color:#333;
-}
-
 h1 {
 	text-align: center;
 	background-color: #efefef;
 	font-size: 36px;
 }
 
-.nav{
+nav{
 	align-items: center;
 	border: 10px 10px 10px 10px;
 	text-align: center;
@@ -28,6 +24,17 @@ nav a:hover{
 }
 nav a:active{
 	color: red;
+}
+
+.slider img{
+	--basesize: 30px;
+	width: 320px;
+	height: 200px;
+}
+.box{
+	width: 320px;
+	height: 120px;
+	background-color: #aaaaaa;
 }
 
 article {
@@ -69,10 +76,13 @@ article {
 }
 
 .feature-banner{
-	height: 15%;
+	height: 800px;
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #999999;
 }
 .feature{
 	background-color: #cccccc;
