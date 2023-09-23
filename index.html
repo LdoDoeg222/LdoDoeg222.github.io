@@ -12,18 +12,22 @@
 
 <body>
 	<!-- 标题与导航 -->
-	<div class="heading">
+	<nav class="nav">
 		<img src="" alt="">
 		<h1>Dy镝 的博客</h1>
-	</div>
-	<nav class="nav">
-		<a href="./index.html">首页</a>
+		<a href="./index.html" class="highlight">首页</a>
 		<a href="./html/nav-bar/文章列表.html">文章列表</a>
 		<a href="./html/nav-bar/友情链接.html">友情链接</a>
 		<a href="./html/nav-bar/其他.html">其他</a>
 		<!-- <a href="./App.vue">Vue页面</a> -->
 		<hr>
+		<a href="javascript:;" target="_top">首页</a>
 	</nav>
+
+	<!-- 中心弹窗 -->
+	<div class="blink">
+		<button>试图中心弹窗</button>
+	</div>
 
 	<!-- 博客介绍 -->
 	<article class="intro">
@@ -34,16 +38,20 @@
 			<br>动画？那是什么？
 		</p>
 		<p>23.09.16：终于学到 JS 以及 DOM 之类的了……继续加油吧</p>
+		<p>23.09.24：生病一周……再加上发现 CSS 还有一些坑没填，又得回头看 CSS ;w;</p>
 		<hr>
 	</article>
 
 	<!-- 轮播图 -->
-	<div class="slider">
+	<!-- <div class="slider">
 		<img src="" alt="壁纸">
 		<div class="box"></div>
-	</div>
+	</div> -->
 
 	<!-- 主要活动社区显示 -->
+	<ul class="activity-container">
+		
+	</ul>
 	<div class="feature-container">
 		<div class="feature-title">
 			<h3>我主要活动的社区</h3>
@@ -84,20 +92,23 @@
 			</div>
 		</div>
 	</div>
+
 	<!-- 播放器 -->
-	<div class="music-player">
+	<!-- <div class="music-player">
 		<span class="box1">HOYO-MiX - Speechless Sorrows 青藤静掩的愁闷.mp3：</span>
 		<div class="box2">
 			<audio src="./assets/sound/HOYO-MiX - Speechless Sorrows 青藤静掩的愁闷.mp3" controls></audio>
 		</div>
-	</div>
+	</div> -->
 	<!-- Tip 按钮（ -->
-	<div class="Tip">
+	<!-- <div class="Tip">
 		<button onclick="tips">Tip button</button>
-	</div>
-
+	</div> -->
+	<button class="gotoTop">返回顶部</button>
 </body>
 </html>
 
 
-<script src="./js/index.js"></script>
+<!-- <script src="./js/index.js"></script> -->
+<!-- <script src="./js/feature.js"></script> -->
+<!-- <script src="./js/gotoTop.js"></script> -->
