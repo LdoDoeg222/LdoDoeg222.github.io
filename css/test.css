@@ -44,7 +44,7 @@ article {
 }
 
 .feature-banner {
-	height: 800px;
+	height: 400px;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -84,18 +84,10 @@ article {
 
 }
 
-.feature #1 p::after {
-	content: "你好";
 
-}
-
-
-.Tip {
+.gotoTop {
 	align-items: center;
 	/* margin: 0px 2px 2px 0px; */
-}
-
-.Tip button {
 	width: 108px;
 	height: 36px;
 }
