@@ -1,0 +1,43 @@
+.blink {
+    width: 100%;
+    text-align: center;
+}
+
+.blink button {
+    align-items: center;
+    width: 108px;
+    height: 36px;
+}
+
+
+
+.blink .blinkWindow {
+    background-color: rgba(162, 162, 162, 1);
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.9);
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.blink h4 {
+    font-size: 32px;
+    line-height: 2em;
+}
+
+.blink p {
+    font-style: 18px;
+    line-height: 2em;
+}
+
+.blink .blinkWindow button {
+    position: relative;
+    display: inline;
+    top: 50%;
+    margin: 0% 10%;
+}

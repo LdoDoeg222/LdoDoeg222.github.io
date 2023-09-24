@@ -2,12 +2,14 @@
 <html>
 
 <head>
+	<meta charset="utf-8">
+	<meta http-equiv="refresh" content="6">
 	<title>Dy镝 的博客</title>
 	<base href="./">
 	<link href="./css/base.css" rel="stylesheet" type="text/css">
 	<link href="./css/test.css" rel="stylesheet" type="text/css">
-	<meta charset="utf-8">
-	<meta http-equiv="refresh" content="10">
+	<link href="./css/feature.css" rel="stylesheet" type="text/css">
+	<link href="./css/blink.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -24,20 +26,30 @@
 	</nav>
 
 	<!-- 中心弹窗 -->
-	<div class="blink">
-		<button>试图中心弹窗</button>
-	</div>
 
 	<!-- 博客介绍 -->
 	<article class="intro">
-		<p>你好！
-			<br>这是 Dy镝 的博客，目前处于起步阶段。
+		<p>
+			你好！<br>
+			这是 Dy镝 的博客，目前处于起步阶段。
 		</p>
-		<p>目前才开始学 HTML+CSS，所以只有最基础的文本、基本的样式。
-			<br>动画？那是什么？
+		<p>
+			23.09.03：目前才开始学 HTML+CSS，所以只有最基础的文本、基本的样式……动画？那是什么？
 		</p>
 		<p>23.09.16：终于学到 JS 以及 DOM 之类的了……继续加油吧</p>
-		<p>23.09.24：生病一周……再加上发现 CSS 还有一些坑没填，又得回头看 CSS ;w;</p>
+		<p>
+			23.09.24：生病一周……再加上发现 CSS 还有一些坑没填，又得回头看 CSS ;w;<br>
+			不过发现 CSS 能实现比较不错的动画，让我挺开心的awa，不妨试试下面的弹窗按钮吧
+		</p>
+
+		<div class="blink">
+			<button class="blinkButton">试图中心弹窗</button>
+			<div class="blinkWindow">
+				<h4>title</h4>
+				<p>text</p>
+				<button>Done</button><button>Cancel</button>
+			</div>
+		</div>
 		<hr>
 	</article>
 
@@ -49,7 +61,7 @@
 
 	<!-- 主要活动社区显示 -->
 	<ul class="activity-container">
-		
+
 	</ul>
 	<div class="feature-container">
 		<div class="feature-title">
@@ -97,6 +109,7 @@
 
 	<button class="gotoTop">返回顶部</button>
 </body>
+
 </html>
 
 
