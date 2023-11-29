@@ -1,11 +1,3 @@
-// 随机子元素
-let a = document.querySelectorAll(".feature")
-console.log(a)
-let randomNumber = Math.ceil(Math.random() * a.length)
-let f = document.querySelector(`.feature:nth-child(${randomNumber})`)
-console.log(f)
-f.style.backgroundColor = '#fefaf0'
-
 // 按钮
 
 // const btn = document.querySelector('button')
