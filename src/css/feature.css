@@ -1,0 +1,59 @@
+.feature-container {
+    background-color: #eeeeee;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.feature-container .feature-title {
+    background-color: #999999;
+    height: 50px;
+    font-size: 24px;
+    margin: 20px 0px;
+}
+
+.feature-banner {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #999999;
+}
+
+.feature {
+    background-color: #cccccc;
+    border-radius: 10%;
+    margin: 10px;
+    padding: 5px;
+    width: 25%;
+}
+
+.feature * {
+    background-color: #aaa;
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    
+}
+.feature img:hover{
+    width: 160px;
+    height: 160px;
+}
+
+
+.feature h6 {
+    margin: 12px 0px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.feature p {
+    margin: 12px 0% 24px;
+    height: 128px;
+    font-size: 16px;
+}
