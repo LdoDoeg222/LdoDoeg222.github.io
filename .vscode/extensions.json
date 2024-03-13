@@ -1,12 +1,14 @@
 {
   "recommendations": [
     "vue.volar",
-    "vue.vscode-typescript-vue-plugin",
     "esbenp.prettier-vscode",
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
     "aaron-bond.better-comments",
     "syler.sass-indented",
     "tailwind-labs.tailwindcss-intellisense",
+    "sdras.vue-vscode-snippets",
+    "hollowtree.vue-snippets",
+    "bradlc.vscode-tailwindcss",
   ]
 }
